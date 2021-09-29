@@ -8,7 +8,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
         <link rel="stylesheet" href="styles/helpers.css">
-        <link rel="stylesheet" href="styles/debug.css">
+        <!-- <link rel="stylesheet" href="styles/debug.css"> -->
 		<style>
             .hero {
                 background: black url(images/hero-1.jpg) center / cover;
@@ -30,7 +30,7 @@
 	</head>
 	<body>
         <section class="hero is-fullheight">
-            <div class="hero-head">
+            <nav class="hero-head">
                 <div class="columns is-mobile is-marginless heading has-text-weight-bold">
                     <div class="column left">
                         <figure class="navbar-item image">
@@ -52,7 +52,16 @@
                         </figure>
                     </div>
                 </div>
-            </div>
+            </nav>
+
+            <header class="hero-body">
+                <div class="is-overlay has-text-centered single-spaced" style="top: 82px;">
+                    <h1 class="subtitle is-4 has-text-weight-light has-text-black">Tesla</h1>
+                    <h2 class="title is-1 has-text-black">Roadster</h2>
+                </div>
+            </header>
+
+
         </section>
 
 	</body>
